@@ -60,7 +60,8 @@ BuildRequires:	speex-devel
 BuildRequires:	pkgconfig(xi)
 BuildRequires:  desktop-file-utils
 BuildRequires:	pygtk2.0-devel
-BuildRequires:	python-gobject-devel
+#BuildRequires:	python-gobject-devel
+BuildRequires:	pkgconfig(pygobject-2.0)
 BuildRequires:  xulrunner-devel
 BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(gconf-2.0)
